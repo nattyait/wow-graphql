@@ -1,0 +1,15 @@
+[
+   {
+      "id": "com-101",
+      "name": "Facebook",
+      "location": "Singapore",
+      "rating":5.0
+   },
+   
+   {
+      "id": "com-102",
+      "name": "Pronto",
+      "location": "Thailand",
+      "rating":4.5
+   }
+]
