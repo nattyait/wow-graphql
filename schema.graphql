@@ -1,6 +1,7 @@
 type Query {
    test:String
    employees:[Employee]
+   employeeById(id:ID!):Employee 
 }
 
 type Employee {
@@ -9,4 +10,5 @@ type Employee {
    lastName:String
    password:String
    comId:String
+   fullName:String 
 }
