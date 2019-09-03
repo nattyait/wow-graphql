@@ -1,0 +1,14 @@
+type Query {
+   test:String
+   employees:[Employee]
+   employeeById(id:ID!):Employee 
+}
+
+type Employee {
+   id:ID!
+   firstName:String
+   lastName:String
+   password:String
+   comId:String
+   fullName:String 
+}
