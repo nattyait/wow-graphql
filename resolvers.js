@@ -18,4 +18,13 @@ const Employee = {
       return db.companies.get(root.comId);
    }
 }
-module.exports = {Query,Employee}
+
+const Mutation = {
+   createEmployee:(root,args,context,info) => {
+      return db.employees.create({comId:args.comId,
+      firstName:args.firstName,
+      lastName:args.lastName})
+   }
+}
+
+module.exports = {Query,Employee,Mutation}

@@ -20,3 +20,7 @@ type Employee {
    fullName:String
    company:Company
 }
+
+type Mutation {
+   createEmployee(comId:ID,firstName:String,lastName:String):String
+}
