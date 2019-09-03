@@ -1,0 +1,28 @@
+[
+   {
+      "id": "S1001",
+      "firstName":"Nattanicha",
+      "lastName":"Phatharamalai",
+      "email": "natty@prontomarketing.com",
+      "password": "pass123",
+      "comId": "com-102"
+   },
+   
+   {
+      "id": "S1002",
+      "email": "kannan.sudhakaran@tutorialpoint.org",
+      "firstName":"Kannan",
+      "lastName":"Sudhakaran",
+      "password": "pass123",
+      "comId": "col-101"
+   },
+   
+   {
+      "id": "S1003",
+      "email": "steve@apple.com",
+      "firstName":"Steve",
+      "lastName":"Jobs",
+      "password": "pass123",
+      "comId": "col-101"
+   }
+]
