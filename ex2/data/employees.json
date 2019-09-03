@@ -14,7 +14,7 @@
       "firstName":"Kannan",
       "lastName":"Sudhakaran",
       "password": "pass123",
-      "comId": "col-101"
+      "comId": "com-101"
    },
    
    {
@@ -23,6 +23,6 @@
       "firstName":"Steve",
       "lastName":"Jobs",
       "password": "pass123",
-      "comId": "col-101"
+      "comId": "com-101"
    }
 ]
