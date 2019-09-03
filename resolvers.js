@@ -13,6 +13,9 @@ const Query = {
 const Employee = {
    fullName:(root,args,context,info) => {
       return root.firstName+":"+root.lastName
+   },
+   company:(root) => {
+      return db.companies.get(root.comId);
    }
 }
 module.exports = {Query,Employee}
