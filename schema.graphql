@@ -23,4 +23,11 @@ type Employee {
 
 type Mutation {
    createEmployee(comId:ID,firstName:String,lastName:String):String
+   signUp(input:SignUpInput):String
+}
+
+input SignUpInput {
+   email:String!,
+   password:String!,
+   firstName:String!
 }
