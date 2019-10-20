@@ -6,7 +6,9 @@ const Query = {
    employeeById:(root,args,context,info) => {
       //args will contain parameter passed in query
       return db.employees.get(args.id);
-   }
+   },
+   greeting: () => 'Hello GraphQL  From TutorialsPoint !!' ,
+   sayHello:(root,args,context,info) =>  `Hi ${args.name} GraphQL server says Hello to you!!`
 }
 
 //for each single employee object returned,resolver is invoked

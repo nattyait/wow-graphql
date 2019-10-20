@@ -1,7 +1,9 @@
 type Query {
    test:String
    employees:[Employee]
-   employeeById(id:ID!):Employee 
+   employeeById(id:ID!):Employee
+   greeting: String
+   sayHello(name:String!):String
 }
 
 type Company {
